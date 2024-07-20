@@ -1,0 +1,92 @@
+
+
+.add-score-modal {
+    background-image: url('../assets/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: left; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .add-score-modal h2 {
+    margin-bottom: 20px;
+    color: #333;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    
+  }
+  
+  .add-score-modal input,
+  .add-score-modal .react-time-picker {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 40%;
+    max-width: 200px;
+    background-color: #333;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    opacity: 80%;
+  }
+  
+  .add-score-modal input:focus,
+  .add-score-modal .react-time-picker:focus {
+    border-color: #4dff00;
+    outline: none;
+  }
+  
+  .add-score-modal button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-score-modal button:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  @media (max-width: 600px) {
+    .add-score-modal {
+      padding: 20px 10px;
+    }
+  
+    .add-score-modal h2 {
+      width: 100%;
+      font-size: 1.2em;
+    }
+  
+    .add-score-modal input,
+    .add-score-modal .react-time-picker {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .add-score-modal button {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+  
