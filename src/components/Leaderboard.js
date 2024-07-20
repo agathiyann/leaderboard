@@ -5,6 +5,7 @@ import { IoMdTrophy } from "react-icons/io";
 import { BiSolidTimer } from "react-icons/bi";
 import '../styles/Leaderboard.css';
 
+
 const Leaderboard = () => {
   const scores = useSelector(state => state.leaderboard.scores);
   const dispatch = useDispatch();
